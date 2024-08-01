@@ -26,10 +26,10 @@
     kleur "^4.1.5"
     yargs "^17.7.2"
 
-"@astrojs/compiler@^2.9.0", "@astrojs/compiler@^2.9.1":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.9.2.tgz#c01dcdb14dc938758e66f9856934b83b6cd986d1"
-  integrity sha512-Vpu0Ffsj8SoV+N0DFHlxxOMKHwSC9059Xy/OlG1t6uFYSoJXxkBC2WyF6igO7x10V+8uJrhOxaXr3nA90kJXow==
+"@astrojs/compiler@^2.9.1", "@astrojs/compiler@^2.9.2":
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.10.1.tgz#36eb9dcf55f0ddc774e245eadc8c1132caac58fd"
+  integrity sha512-XmM4j6BjvOVMag2xELq0JuG2yKOW8wgIu6dvb9BsjbGYmnvoStJn/pqEzVqc1EBszf2xYT7onIkftIOUz9AwrQ==
 
 "@astrojs/internal-helpers@0.4.1":
   version "0.4.1"
@@ -848,10 +848,10 @@
     "@sentry/types" "6.19.7"
     tslib "^1.9.3"
 
-"@shikijs/core@1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.11.0.tgz#a07a55037ba74f13b860698149bda03382b74cc1"
-  integrity sha512-VbEhDAhT/2ozO0TPr5/ZQBO/NWLqtk4ZiBf6NplYpF38mKjNfMMied5fNEfIfYfN+cdKvhDB4VMcKvG/g9c3zg==
+"@shikijs/core@1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.12.0.tgz#58ae6d02da7934edd9c10951a989c9cde0cf736b"
+  integrity sha512-mc1cLbm6UQ8RxLc0dZES7v5rkH+99LxQp/ZvTqV3NLyYsO/fD6JhEflP1H5b2SDq9gI0+0G36AVZWxvounfR9w==
   dependencies:
     "@types/hast" "^3.0.4"
 
@@ -1172,12 +1172,12 @@ array-iterate@^2.0.0:
   resolved "https://registry.yarnpkg.com/array-iterate/-/array-iterate-2.0.1.tgz#6efd43f8295b3fee06251d3d62ead4bd9805dd24"
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
-astro@^4.12.2:
-  version "4.12.2"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-4.12.2.tgz#c92bec880e05577997dd963a423f0ad54e7d6cf4"
-  integrity sha512-l6OmqlL+FiuSi9x6F+EGZitteOznq1JffOil7st7cdqeMCTEIym4oagI1a6zp6QekliKWEEZWdplGhgh1k1f7Q==
+astro@^4.12.3:
+  version "4.12.3"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-4.12.3.tgz#13c482a9c9d2b306f4cdf376070c40d44e714b51"
+  integrity sha512-rFcRktbZk8CsHufLOB51gYAia3RTuOyaBD8iZXRHP7Oqo6QviquNaa/5U6RoUqyF5KS8vyq/ldJ5jfboJzxuuw==
   dependencies:
-    "@astrojs/compiler" "^2.9.0"
+    "@astrojs/compiler" "^2.9.2"
     "@astrojs/internal-helpers" "0.4.1"
     "@astrojs/markdown-remark" "5.2.0"
     "@astrojs/telemetry" "3.1.0"
@@ -1226,8 +1226,8 @@ astro@^4.12.2:
     preferred-pm "^4.0.0"
     prompts "^2.4.2"
     rehype "^13.0.1"
-    semver "^7.6.2"
-    shiki "^1.10.3"
+    semver "^7.6.3"
+    shiki "^1.11.0"
     string-width "^7.2.0"
     strip-ansi "^7.1.0"
     tsconfck "^3.1.1"
@@ -4408,7 +4408,7 @@ semver@^6.0.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.8, semver@^7.6.0, semver@^7.6.2:
+semver@^7.3.8, semver@^7.6.0, semver@^7.6.2, semver@^7.6.3:
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
   integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
@@ -4500,12 +4500,12 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shiki@^1.10.3:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.11.0.tgz#fad958667d7dc8e58f58e7c6ebd24d75d7c4e199"
-  integrity sha512-NqH/O1zRHvnuk/WfSL6b7+DtI7/kkMMSQGlZhm9DyzSU+SoIHhaw/fBZMr+zp9R8KjdIzkk3JKSC6hORuGDyng==
+shiki@^1.10.3, shiki@^1.11.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.12.0.tgz#fd4900442405760df5c5819b5baa3892ef9612d2"
+  integrity sha512-BuAxWOm5JhRcbSOl7XCei8wGjgJJonnV0oipUupPY58iULxUGyHhW5CF+9FRMuM1pcJ5cGEJGll1LusX6FwpPA==
   dependencies:
-    "@shikijs/core" "1.11.0"
+    "@shikijs/core" "1.12.0"
     "@types/hast" "^3.0.4"
 
 side-channel@^1.0.4:
