@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.8.2",
-    "astro": "^4.12.2"
+    "astro": "^4.15.1"
   }
 }
